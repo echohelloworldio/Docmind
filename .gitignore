@@ -1,0 +1,10 @@
+@"
+venv/
+__pycache__/
+*.pyc
+.env
+chroma_db/
+.streamlit/secrets.toml
+data/*.pdf
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
